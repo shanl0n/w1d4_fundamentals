@@ -7,7 +7,7 @@ person1.add_to_shopping("banana")
 
 print(f"{person1.name} is going shopping and has {person1.wallet} pounds in his wallet.")
 
-print(person1.print_shopping_list())
+print(f"The items in his shopping list are: {person1.print_shopping_list()}")
 
 # Create a person class with the properties of  name (str), wallet (int). And a  shopping list (List) that starts off empty
 # Write  methods to add and remove items from the shopping list
