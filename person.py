@@ -9,10 +9,13 @@ class Person:
 
     def remove_from_shopping(self, shopping_item):
         self.shopping_list.remove(shopping_item)
-
+    
+    # def print_shopping_list(self):
+    #     return(self.shopping_list)
+    
     def print_shopping_list(self):
-        for product in self.shopping_list:
-            return(self.shopping_list)
+        for products in self.shopping_list:
+            print(products)
 
 
 # Create a person class with the properties of  name (str), wallet (int). And a  shopping list (List) that starts off empty
